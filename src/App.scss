@@ -1,0 +1,59 @@
+
+
+html body #root{
+  height: 100vh;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+#board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  align-items: center;
+}
+
+.squares {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+
+  
+}
+
+//ID'S
+  // #square0 {
+  //   border-top: none;
+  //   border-left: none;
+  // }
+  // #square1 {
+  //   border-top: none;
+  // }
+  // #square2 {
+  //   border-top: none;
+  //   border-right: none;
+  // }
+  // #square3 {
+  //   border-left: none;
+  // }
+  // #square5 {
+  //   border-right: none;
+  // }
+  // #square6 {
+  //   border-bottom: none;
+  //   border-left: none;
+  // }
+  // #square7 {
+  //   border-bottom: none;
+  //   border-left: none;
+  // }
+  // #square8 {
+  //   border-bottom: none;
+  //   border-right: none;
+  // }
